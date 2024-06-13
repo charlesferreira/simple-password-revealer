@@ -12,7 +12,7 @@ Simple Password Revealer is a Chrome extension that allows you to reveal passwor
 
 Simple Password Revealer is available on the Chrome Web Store. Follow these steps to install:
 
-1. Go to the [Simple Password Revealer page on the Chrome Web Store](#).
+1. Go to the [Simple Password Revealer page on the Chrome Web Store](https://chromewebstore.google.com/detail/hieomlbkejigpeednmadimpdhaelbdnl).
 2. Click the "Add to Chrome" button.
 3. Confirm the installation by clicking "Add Extension" in the pop-up dialog.
 
