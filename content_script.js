@@ -17,6 +17,7 @@ style.textContent = `
     text-align: center;
     font-size: 16px;
     font-family: sans-serif;
+    font-weight: normal;
     padding: 10px 0;
     margin: 10px auto;
     border-radius: 50vh;
@@ -24,9 +25,15 @@ style.textContent = `
     max-width: 600px;
   }
 
+  #password-revealer-banner strong {
+    font-weight: bold;
+  }
+
   input[data-original-type="password"] {
     background-color: yellow !important;
+    color: black !important;
     -webkit-box-shadow: 0 0 0 1000px yellow inset !important;
+    -webkit-text-fill-color: black !important;
   }
 `;
 document.head.append(style);
@@ -53,7 +60,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 });
 
 function togglePasswordReveal() {
-  const bannerContainer = document.getElementById('password-revealer-banner-container');
   if (!window.passwordRevealerActive) {
     revealPasswords();
   } else {
