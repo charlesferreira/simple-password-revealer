@@ -1,0 +1,11 @@
+{
+  "extension_name": {
+    "message": "Revelador de Campos de Senhas"
+  },
+  "extension_description": {
+    "message": "Uma extensão para revelar campos de senha."
+  },
+  "banner_message": {
+    "message": "<strong>Atenção!</strong> O Revelador de Senhas está ativo."
+  }
+}

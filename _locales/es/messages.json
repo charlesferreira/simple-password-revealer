@@ -1,0 +1,11 @@
+{
+  "extension_name": {
+    "message": "Revelador de Campos de Contraseñas"
+  },
+  "extension_description": {
+    "message": "Una extensión para revelar campos de contraseña."
+  },
+  "banner_message": {
+    "message": "<strong>¡Cuidado!</strong> El Revelador de Contraseñas está activo."
+  }
+}

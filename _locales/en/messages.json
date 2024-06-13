@@ -1,0 +1,11 @@
+{
+  "extension_name": {
+    "message": "Simple Password Revealer"
+  },
+  "extension_description": {
+    "message": "An extension to reveal password fields."
+  },
+  "banner_message": {
+    "message": "<strong>Look out!</strong> Password Revealer is active."
+  }
+}
